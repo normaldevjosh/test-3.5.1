@@ -9,7 +9,11 @@
       {
         "name": "secondOption",
         "option_type": "TYPE_STRING",
-        "required": true
+        "required": true,
+        "defaultValue": {
+            "string": "default val second option"
+        }
+
       }
     ]
   }
