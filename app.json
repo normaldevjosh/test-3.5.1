@@ -11,7 +11,15 @@
         "option_type": "TYPE_STRING",
         "required": true,
         "defaultValue": {
-            "string": "default val second option"
+            "string": "default val second option v2"
+        }
+      },
+      {
+        "name": "thirdOption",
+        "option_type": "TYPE_STRING",
+        "required": true,
+        "defaultValue": {
+            "string": "third options v2"
         }
 
       }
