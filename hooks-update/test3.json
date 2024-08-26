@@ -1,0 +1,12 @@
+{
+  "applicationId": "test-3.5",
+  "hook": {
+    "id": "9d6c894c-be35-4cad-a967-ea4fefafad7b",
+    "name": "test3",
+    "entryPoint": "hooks/test3.js",
+    "mode": 3,
+    "schedule": {
+      "rrule": "RRULE:FREQ=MINUTELY;INTERVAL=5"
+    }
+  }
+}
