@@ -7,5 +7,5 @@ const NormalSdk = require("@normalframework/applications-sdk");
  */
 module.exports = async ({ points, sdk, update, args }) => {
 
-    console.log("version 5")
+    console.log("version 6")
 };
