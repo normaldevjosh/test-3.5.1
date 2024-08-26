@@ -1,27 +1,27 @@
 {
-    "name":"test-3.5",
-    "options": [
-      {
-        "name": "firstOption",
-        "option_type": "TYPE_STRING",
-        "required": true
+  "name": "test-3.5",
+  "options": [
+    {
+      "name": "firstOption",
+      "optionType": "TYPE_STRING",
+      "required": true
+    },
+    {
+      "name": "secondOption",
+      "optionType": "TYPE_STRING",
+      "defaultValue": {
+        "string": "default val second option v2"
       },
-      {
-        "name": "secondOption",
-        "option_type": "TYPE_STRING",
-        "required": true,
-        "defaultValue": {
-            "string": "default val second option v2"
-        }
+      "required": true
+    },
+    {
+      "name": "thirdOption",
+      "optionType": "TYPE_STRING",
+      "defaultValue": {
+        "string": "third options v2"
       },
-      {
-        "name": "thirdOption",
-        "option_type": "TYPE_STRING",
-        "required": true,
-        "defaultValue": {
-            "string": "third options v2"
-        }
-
-      }
-    ]
-  }
+      "required": true
+    }
+  ],
+  "minNfVersion": "v3ab5bb-linux-arm64"
+}
