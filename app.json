@@ -2,7 +2,12 @@
     "name":"test-3.5",
     "options": [
       {
-        "name": "option 1",
+        "name": "firstOption",
+        "option_type": "TYPE_STRING",
+        "required": true
+      },
+      {
+        "name": "secondOption",
         "option_type": "TYPE_STRING",
         "required": true
       }
