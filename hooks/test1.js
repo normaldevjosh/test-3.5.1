@@ -5,7 +5,7 @@ const NormalSdk = require("@normalframework/applications-sdk");
  * @param {NormalSdk.InvokeParams} params
  * @returns {NormalSdk.InvokeResult}
  */
-module.exports = async ({ points, sdk, update, args }) => {
+module.exports = async ({ points, sdk, update, args, config}) => {
 
-    console.log("version 6")
+    console.log(JSON.stringify(config))
 };
