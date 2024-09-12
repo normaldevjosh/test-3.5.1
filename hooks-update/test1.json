@@ -1,9 +1,9 @@
 {
-  "id":  "56a8fd78-092d-11ee-be56-0242ac120002",
-  "name":  "test1",
-  "entryPoint":  "/hooks/test1.js",
-  "schedule":  {
-    "rrule":  "RRULE:FREQ=MINUTELY;INTERVAL=5"
+  "id": "56a8fd78-092d-11ee-be56-0242ac120002",
+  "name": "test1",
+  "entryPoint": "/hooks/test1.js",
+  "schedule": {
+    "rrule": "RRULE:FREQ=SECONDLY;INTERVAL=30"
   },
-  "mode":  "MODE_SCHEDULED"
+  "mode": "MODE_SCHEDULED"
 }
