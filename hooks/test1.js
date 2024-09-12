@@ -1,4 +1,5 @@
 const NormalSdk = require("@normalframework/applications-sdk");
+const cowsay = require("cowsay");
 
 /**
  * Invoke hook function
@@ -6,8 +7,14 @@ const NormalSdk = require("@normalframework/applications-sdk");
  * @returns {NormalSdk.InvokeResult}
  */
 module.exports = async ({ points, sdk, update, args, config }) => {
-  console.log("test1; version 2");
+  console.log("test1; version 3");
 
-  console.log(JSON.stringify(config));
+  cconsole.log(
+    cowsay.say({
+      text: "I'm a moooodule",
+      e: "oO",
+      T: "U ",
+    }),
+  );
 };
 
